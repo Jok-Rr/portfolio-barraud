@@ -4,7 +4,7 @@ import profilePic from "../../../public/image/1675265277430.jpeg";
 const ProfilePic = () => {
 	return (
 		<>
-			<div className="w-1/2 col-span-4 m-auto">
+			<div className="col-span-2 col-start-2">
 				<figure className="overflow-hidden rounded-full ring-myRed ring-[6px] ring-offset-[6px] ring-offset-myWhite dark:ring-offset-myDarkblue ">
 					<Image src={profilePic} />
 				</figure>
@@ -38,7 +38,7 @@ const ProfilePic = () => {
 			</a>
 			<a
 				href=""
-				className="col-span-2 py-4 text-center text-myWhite rounded-2xl bg-myDarklight"
+				className="col-span-2 py-4 text-center bg-white dark:text-myWhite rounded-2xl dark:bg-myDarklight"
 			>
 				Contact me
 			</a>
