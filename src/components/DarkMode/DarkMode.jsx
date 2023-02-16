@@ -1,4 +1,3 @@
-import React from "react";
 const DarkMode = () => {
 	const handleDark = () => {
 		document.documentElement.classList.toggle("dark");
