@@ -16,6 +16,32 @@ const ProfilePic = () => {
 					<i class="fa-brands fa-twitter text-3xl"></i>
 				</div>
 			</div>
+			<div className="flex justify-between col-span-4 text-center">
+				<div className="w-[30%]">
+					<span>7</span>
+					<p>Years of work experience</p>
+				</div>
+				<div className="w-[30%]">
+					<span>50+</span>
+					<p>Completed projects</p>
+				</div>
+				<div className="w-[30%]">
+					<span>20+</span>
+					<p>Personal side projects</p>
+				</div>
+			</div>
+			<a
+				href=""
+				className="col-span-2 py-4 text-center text-myWhite rounded-2xl bg-myRed"
+			>
+				Download CV <i class="fa-solid fa-download"></i>
+			</a>
+			<a
+				href=""
+				className="col-span-2 py-4 text-center text-myWhite rounded-2xl bg-myDarklight"
+			>
+				Contact me
+			</a>
 		</>
 	);
 };

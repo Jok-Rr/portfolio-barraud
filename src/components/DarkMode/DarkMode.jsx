@@ -4,9 +4,9 @@ const DarkMode = () => {
 	};
 	return (
 		<div className="col-span-4 m-auto">
-			<button onClick={handleDark}>
+			<p onClick={handleDark}>
 				<i className="p-4 bg-white rounded-full fa-solid fa-brightness dark:text-myGrey dark:bg-myDarklight"></i>
-			</button>
+			</p>
 		</div>
 	);
 };

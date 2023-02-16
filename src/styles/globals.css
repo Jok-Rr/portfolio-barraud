@@ -10,6 +10,6 @@
 		font-weight: 600;
 	}
 	body {
-		@apply bg-myWhite dark:bg-myDarkblue text-lightText dark:text-darkText;
+		@apply font-medium bg-myWhite dark:bg-myDarkblue text-lightText dark:text-myWhite;
 	}
 }
