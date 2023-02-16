@@ -1,5 +1,5 @@
-import DarkMode from "../components/DarkMode/DarkMode";
-import ProfilePic from "../components/ProfilePic/ProfilePic";
+import DarkMode from "../components/DarkMode/DarkMode.jsx";
+import ProfilePic from "../components/ProfilePic/ProfilePic.jsx";
 
 export default function Home() {
 	return (
