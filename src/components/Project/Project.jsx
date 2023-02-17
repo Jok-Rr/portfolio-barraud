@@ -5,6 +5,7 @@ import id from '../../../public/image/ID.jpg';
 import ae from '../../../public/image/after_effect.jpg';
 import pr from '../../../public/image/premiree_pro.jpg';
 import figma from '../../../public/image/figma.jpg';
+import test from '../../../public/image/Rectangle 1.png';
 import { useState } from 'react';
 
 const Project = () => {
@@ -14,7 +15,7 @@ const Project = () => {
         <>
             <div className="flex col-span-4 p-4 text-center bg-white lg:col-span-12 dark:bg-myDarklight rounded-2xl">
                 <p
-                    className={`w-1/2 p-4 rounded-2xl ${tabs && 'bg-lightGrey dark:bg-myDarkblue '}`}
+                    className={`w-1/2 p-4 cursor-pointer rounded-2xl ${tabs && 'bg-lightGrey dark:bg-myDarkblue '}`}
                     onClick={() => {
                         setTabs(true);
                     }}
@@ -22,7 +23,7 @@ const Project = () => {
                     Portfolio
                 </p>
                 <p
-                    className={`w-1/2 p-4 rounded-2xl ${!tabs && 'bg-lightGrey dark:bg-myDarkblue '}`}
+                    className={`w-1/2 p-4 cursor-pointer rounded-2xl ${!tabs && 'bg-lightGrey dark:bg-myDarkblue '}`}
                     onClick={() => {
                         setTabs(false);
                     }}
@@ -36,7 +37,7 @@ const Project = () => {
                         title={'SmarterTrading411'}
                         subtitle={'Landing page of SmarterTrading411 created using wordPress'}
                         urlSite={'https://google.com'}
-                        imgFile={figma}
+                        imgFile={test}
                     />
                 ) : (
                     <>
