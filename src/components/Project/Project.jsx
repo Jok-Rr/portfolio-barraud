@@ -40,11 +40,11 @@ const Project = () => {
                     />
                 ) : (
                     <>
-                        <ProjectCard imgFile={ai} skillsCard={true} />
                         <ProjectCard imgFile={ps} skillsCard={true} />
-                        <ProjectCard imgFile={id} skillsCard={true} />
+                        <ProjectCard imgFile={ai} skillsCard={true} />
                         <ProjectCard imgFile={pr} skillsCard={true} />
                         <ProjectCard imgFile={ae} skillsCard={true} />
+                        <ProjectCard imgFile={id} skillsCard={true} />
                         <ProjectCard imgFile={figma} skillsCard={true} />
                     </>
                 )}
