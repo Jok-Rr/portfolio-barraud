@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useState } from 'react';
 import profilePic from '../../../public/image/PDP.png';
 
 const ProfilePic = () => {
@@ -13,7 +14,15 @@ const ProfilePic = () => {
                 <h1>Florian Barraud</h1>
                 <p className="mb-2">Graphiste / Marketing</p>
                 <div className="flex justify-center">
-                    <i class="fa-brands fa-twitter text-3xl"></i>
+                    <a href="https://twitter.com/1P0INT7" target={'_blank'}>
+                        <i class="fa-brands fa-twitter text-3xl mx-2 "></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/florian-barraud01/">
+                        <i class="fa-brands fa-linkedin text-3xl mx-2 "></i>
+                    </a>
+                    <a href="https://www.instagram.com/1p0int7/">
+                        <i class="fa-brands fa-instagram text-3xl mx-2 "></i>
+                    </a>
                 </div>
             </div>
             <div className="flex justify-between col-span-4 text-center">
@@ -35,7 +44,7 @@ const ProfilePic = () => {
                 target={'_blank'}
                 className="col-span-2 py-4 text-center text-myWhite rounded-2xl bg-myRed"
             >
-                Download CV <i class="fa-solid fa-download"></i>
+                Open CV <i class="fa-solid fa-eye"></i>
             </a>
             <a
                 href="mailto:florian.barraud01@gmail.com"
