@@ -14,7 +14,7 @@ const ProjectCard = ({ title, subtitle, urlSite = false, imgFile, className, ski
                 <Image
                     src={imgFile}
                     placeholder={'blur'}
-                    className={'object-cover w-full transition duration-300 ease-in-out lg:group-hover/card:scale-125'}
+                    className={'object-cover h-full transition duration-300 ease-in-out lg:group-hover/card:scale-125'}
                     alt={''}
                 />
                 {skillsCard != true && (
