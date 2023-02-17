@@ -1,49 +1,49 @@
-import Image from "next/image";
-import profilePic from "../../../public/image/1675265277430.jpeg";
+import Image from 'next/image';
+import profilePic from '../../../public/image/PDP.png';
 
 const ProfilePic = () => {
-	return (
-		<>
-			<div className="col-span-2 col-start-2">
-				<figure className="overflow-hidden rounded-full ring-myRed ring-[6px] ring-offset-[6px] ring-offset-myWhite dark:ring-offset-myDarkblue ">
-					<Image src={profilePic} />
-				</figure>
-			</div>
-			<div className="col-span-4 text-center text-">
-				<h1>Florian Barraud</h1>
-				<p className="mb-2">Graphiste / Marketing</p>
-				<div className="flex justify-center">
-					<i class="fa-brands fa-twitter text-3xl"></i>
-				</div>
-			</div>
-			<div className="flex justify-between col-span-4 text-center">
-				<div className="w-[30%]">
-					<span>7</span>
-					<p>Years of work experience</p>
-				</div>
-				<div className="w-[30%]">
-					<span>50+</span>
-					<p>Completed projects</p>
-				</div>
-				<div className="w-[30%]">
-					<span>20+</span>
-					<p>Personal side projects</p>
-				</div>
-			</div>
-			<a
-				href=""
-				className="col-span-2 py-4 text-center text-myWhite rounded-2xl bg-myRed"
-			>
-				Download CV <i class="fa-solid fa-download"></i>
-			</a>
-			<a
-				href=""
-				className="col-span-2 py-4 text-center bg-white dark:text-myWhite rounded-2xl dark:bg-myDarklight"
-			>
-				Contact me
-			</a>
-		</>
-	);
+    return (
+        <>
+            <div className="col-span-4 ">
+                <figure className="overflow-hidden m-auto w-1/2 rounded-full ring-myRed ring-[6px] ring-offset-[6px] ring-offset-myWhite dark:ring-offset-myDarkblue ">
+                    <Image src={profilePic} />
+                </figure>
+            </div>
+            <div className="col-span-4 text-center text-">
+                <h1>Florian Barraud</h1>
+                <p className="mb-2">Graphiste / Marketing</p>
+                <div className="flex justify-center">
+                    <i class="fa-brands fa-twitter text-3xl"></i>
+                </div>
+            </div>
+            <div className="flex justify-between col-span-4 text-center">
+                <div className="w-[30%]">
+                    <span>7</span>
+                    <p>Years of work experience</p>
+                </div>
+                <div className="w-[30%]">
+                    <span>50+</span>
+                    <p>Completed projects</p>
+                </div>
+                <div className="w-[30%]">
+                    <span>20+</span>
+                    <p>Personal side projects</p>
+                </div>
+            </div>
+            <a
+                href="/files/Barraud_Florian_CV_2022_2024.pdf"
+                className="col-span-2 py-4 text-center text-myWhite rounded-2xl bg-myRed"
+            >
+                Download CV <i class="fa-solid fa-download"></i>
+            </a>
+            <a
+                href="mailto:florian.barraud01@gmail.com"
+                className="col-span-2 py-4 text-center bg-white dark:text-myWhite rounded-2xl dark:bg-myDarklight"
+            >
+                Contact me
+            </a>
+        </>
+    );
 };
 
 export default ProfilePic;
