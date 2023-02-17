@@ -32,6 +32,7 @@ const ProfilePic = () => {
             </div>
             <a
                 href="/files/Barraud_Florian_CV_2022_2024.pdf"
+                target={'_blank'}
                 className="col-span-2 py-4 text-center text-myWhite rounded-2xl bg-myRed"
             >
                 Download CV <i class="fa-solid fa-download"></i>
