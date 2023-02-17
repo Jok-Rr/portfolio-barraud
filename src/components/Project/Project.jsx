@@ -1,5 +1,10 @@
 import ProjectCard from './ProjectCard';
-import img from '../../../public/image/Rectangle 1.png';
+import ai from '../../../public/image/AI.jpg';
+import ps from '../../../public/image/photoshop.jpg';
+import id from '../../../public/image/ID.jpg';
+import ae from '../../../public/image/after_effect.jpg';
+import pr from '../../../public/image/premiree_pro.jpg';
+import figma from '../../../public/image/figma.jpg';
 import { useState } from 'react';
 
 const Project = () => {
@@ -7,7 +12,7 @@ const Project = () => {
 
     return (
         <>
-            <div className="flex col-span-4 p-4 text-center bg-white dark:bg-myDarklight rounded-2xl">
+            <div className="flex col-span-4 p-4 text-center bg-white lg:col-span-12 dark:bg-myDarklight rounded-2xl">
                 <p
                     className={`w-1/2 p-4 rounded-2xl ${tabs && 'bg-lightGrey dark:bg-myDarkblue '}`}
                     onClick={() => {
@@ -25,25 +30,25 @@ const Project = () => {
                     Skills
                 </p>
             </div>
-            {tabs ? (
-                <div className="grid grid-cols-4 col-span-4 gap-4">
+            <div className="grid grid-cols-4 col-span-4 gap-4 lg:grid-cols-12 lg:col-span-12">
+                {tabs ? (
                     <ProjectCard
                         title={'SmarterTrading411'}
                         subtitle={'Landing page of SmarterTrading411 created using wordPress'}
                         urlSite={'https://google.com'}
-                        imgFile={img}
+                        imgFile={figma}
                     />
-                </div>
-            ) : (
-                <>
-                    <div className="grid grid-cols-4 col-span-4 gap-4">
-                        <ProjectCard imgFile={img} />
-                    </div>
-                    <div className="grid grid-cols-4 col-span-4 gap-4">
-                        <ProjectCard imgFile={img} />
-                    </div>
-                </>
-            )}
+                ) : (
+                    <>
+                        <ProjectCard imgFile={ai} skillsCard={true} />
+                        <ProjectCard imgFile={ps} skillsCard={true} />
+                        <ProjectCard imgFile={id} skillsCard={true} />
+                        <ProjectCard imgFile={pr} skillsCard={true} />
+                        <ProjectCard imgFile={ae} skillsCard={true} />
+                        <ProjectCard imgFile={figma} skillsCard={true} />
+                    </>
+                )}
+            </div>
         </>
     );
 };

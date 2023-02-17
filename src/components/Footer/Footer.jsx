@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="col-span-4 text-center">
+        <div className="col-span-4 text-center lg:col-span-12">
             <p>
                 © Florian Barraud. 2023 All rigths reserved - Développé par{' '}
                 <a href="https://tombost.fr" className="font-black text-myRed" target={'_blank'}>
