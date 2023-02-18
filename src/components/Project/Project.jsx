@@ -1,5 +1,5 @@
 import ProjectCard from './ProjectCard';
-import ai from '../../../public/image/chatbot.png';
+import ai from '../../../public/image/AI.jpg';
 import ps from '../../../public/image/photoshop.jpg';
 import id from '../../../public/image/ID.jpg';
 import ae from '../../../public/image/after_effect.jpg';
