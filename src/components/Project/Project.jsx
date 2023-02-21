@@ -5,7 +5,7 @@ import id from '../../../public/image/ID.jpg';
 import ae from '../../../public/image/after_effect.jpg';
 import pr from '../../../public/image/premiree_pro.jpg';
 import figma from '../../../public/image/figma.jpg';
-import test from '../../../public/image/Rectangle 1.png';
+import vc from '../../../public/image/v&c.png';
 import { useState } from 'react';
 
 const Project = () => {
@@ -33,12 +33,32 @@ const Project = () => {
             </div>
             <div className="grid grid-cols-4 col-span-4 gap-4 lg:grid-cols-12 lg:col-span-12">
                 {tabs ? (
-                    <ProjectCard
-                        title={'SmarterTrading411'}
-                        subtitle={'Landing page of SmarterTrading411 created using wordPress'}
-                        urlSite={'https://google.com'}
-                        imgFile={test}
-                    />
+                    <>
+                        <ProjectCard
+                            title={'Facebook Vins et Cadeaux'}
+                            subtitle={
+                                'Je fais la création des visuels, rédaction des posts, programmation, et statistiques'
+                            }
+                            urlSite={'https://www.facebook.com/vinsetcadeaux/?locale=fr_FR'}
+                            imgFile={vc}
+                        />
+                        <ProjectCard
+                            title={'Instagram Vins & Cadeaux'}
+                            subtitle={
+                                'Je fais la création des visuels, rédaction des posts, programmation, et statistiques'
+                            }
+                            urlSite={'https://www.instagram.com/vinsetcadeaux/'}
+                            imgFile={vc}
+                        />
+                        <ProjectCard
+                            title={'Tiktok Vins & Cadeaux'}
+                            subtitle={
+                                'Je fais la création des visuels, rédaction des posts, programmation, et statistiques'
+                            }
+                            urlSite={'https://www.tiktok.com/@vinsetcadeaux'}
+                            imgFile={vc}
+                        />
+                    </>
                 ) : (
                     <>
                         <ProjectCard imgFile={ps} skillsCard={true} />
