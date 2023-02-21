@@ -10,6 +10,10 @@ export default function Home() {
             <Head>
                 <title>Florian Barraud | Portfolio </title>
                 <meta property="og:title" content="Florian Barraud | Portfolio " key="title" />
+                <meta
+                    property="og:description"
+                    content="Bienvenue sur mon Portfolio, je suis graphiste / marketeur. Vous pourrez découvrir mes différents projets et skills."
+                />
             </Head>
             <DarkMode />
             <ProfilePic />
