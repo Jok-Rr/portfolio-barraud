@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <Head>
                 <title>Florian Barraud | Portfolio </title>
-                <meta property="og:title" content="My page title" key="title" />
+                <meta property="og:title" content="Florian Barraud | Portfolio " key="title" />
             </Head>
             <DarkMode />
             <ProfilePic />
