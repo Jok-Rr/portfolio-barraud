@@ -41,22 +41,22 @@ const Project = () => {
                     <>
                         <ProjectCard
                             urlSite={'https://www.instagram.com/p/CoR1Rsyt-0a/?utm_source=ig_web_copy_link'}
-                            title={'Hoodlife'}
+                            title={'HOODLIFE'}
                             imgFile={hoodlife}
                         />
                         <ProjectCard
                             urlSite={'https://www.instagram.com/tv/CeLjFJigVDa/?utm_source=ig_web_copy_link'}
-                            title={'1POINT7'}
+                            title={'1P0INT7'}
                             imgFile={unpointsept}
                         />
                         <ProjectCard
                             urlSite={'https://www.instagram.com/p/CeQbg-rriwX/?utm_source=ig_web_copy_link'}
-                            title={'Ad'}
+                            title={'AD'}
                             imgFile={ad}
                         />
                         <ProjectCard
                             urlSite={'https://www.instagram.com/p/Co7VAEMMCMS/?utm_source=ig_web_copy_link'}
-                            title={'MoodBoard'}
+                            title={'MOODBOARD'}
                             imgFile={MoodBoard}
                         />
                         <ProjectCard
