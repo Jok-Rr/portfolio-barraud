@@ -19,8 +19,8 @@ const ProjectCard = ({ title, subtitle, urlSite = false, imgFile, className, ski
                 />
                 {skillsCard != true && (
                     <div className="lg:absolute hidden lg:px-4 lg:top-0 lg:left-0 lg:flex bg-myRed/[.80] lg:h-full lg:w-full lg:items-center lg:flex-col lg:justify-center lg:opacity-0 lg:backdrop-blur-md lg:transition lg:duration-300 lg:ease-in-out lg:group-hover/card:opacity-100">
-                        <h2>{title}</h2>
-                        <p className="mb-4">{subtitle}</p>
+                        {title && <h2>{title}</h2>}
+                        {subtitle && <p className="mb-4">{subtitle}</p>}
                         <i className="p-4 bg-white rounded-full fa-solid fa-link-simple text-lightText dark:text-darkText dark:bg-myDarklight"></i>
                     </div>
                 )}

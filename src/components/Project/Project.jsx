@@ -5,6 +5,11 @@ import id from '../../../public/image/ID.jpg';
 import ae from '../../../public/image/after_effect.jpg';
 import pr from '../../../public/image/premiree_pro.jpg';
 import figma from '../../../public/image/figma.jpg';
+import MoodBoard from '../../../public/image/MOODBOARD3.png';
+import jordan from '../../../public/image/jordan.jpg';
+import hoodlife from '../../../public/image/concours_chris_brown.png';
+import unpointsept from '../../../public/image/1point7.png';
+import ad from '../../../public/image/ad.jpg';
 import vc from '../../../public/image/v&c.png';
 import { useState } from 'react';
 
@@ -34,6 +39,32 @@ const Project = () => {
             <div className="grid grid-cols-4 col-span-4 gap-4 lg:grid-cols-12 lg:col-span-12">
                 {tabs ? (
                     <>
+                        <ProjectCard
+                            urlSite={'https://www.instagram.com/p/CoR1Rsyt-0a/?utm_source=ig_web_copy_link'}
+                            title={'Hoodlife'}
+                            imgFile={hoodlife}
+                        />
+                        <ProjectCard
+                            urlSite={'https://www.instagram.com/tv/CeLjFJigVDa/?utm_source=ig_web_copy_link'}
+                            title={'1POINT7'}
+                            imgFile={unpointsept}
+                        />
+                        <ProjectCard
+                            urlSite={'https://www.instagram.com/p/CeQbg-rriwX/?utm_source=ig_web_copy_link'}
+                            title={'Ad'}
+                            imgFile={ad}
+                        />
+                        <ProjectCard
+                            urlSite={'https://www.instagram.com/p/Co7VAEMMCMS/?utm_source=ig_web_copy_link'}
+                            title={'MoodBoard'}
+                            imgFile={MoodBoard}
+                        />
+                        <ProjectCard
+                            urlSite={'https://www.instagram.com/p/Ck0a3kHL5-h/?utm_source=ig_web_copy_link'}
+                            title={'POSTER JORDAN III UNC'}
+                            imgFile={jordan}
+                        />
+
                         <ProjectCard
                             title={'Facebook Vins et Cadeaux'}
                             subtitle={
